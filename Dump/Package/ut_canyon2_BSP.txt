@@ -1,0 +1,216 @@
+2.5.16
+1 threads
+Q3Map         - v1.0r (c) 1999 Id Software Inc.
+Q3Map (ydnar) - v2.5.16
+GtkRadiant    - v1.5.0 Jul 27 2004 07:09:18
+Impeach Bush
+--- InitPaths ---
+Searching for "quake" in "G:/Games/utils/Q3map2/q3map_2.5.15_win32_x86/q3map2.exe" (0)...
+Searching for "quake" in "-meta" (1)...
+Searching for "quake" in "G:/Games/quake3/baseq3/maps/ut_canyon.map" (2)...
+VFS Init: G:/Games/quake3/baseq3/
+
+--- BSP ---
+Creating meta surfaces from brush faces
+entering scripts/shaderlist.txt
+entering scripts/base_button.shader
+Script file scripts/base_ceiling.shader was not found
+entering scripts/base_door.shader
+entering scripts/base_floor.shader
+entering scripts/base_light.shader
+entering scripts/base_object.shader
+entering scripts/base_support.shader
+entering scripts/base_trim.shader
+entering scripts/base_wall.shader
+entering scripts/common.shader
+entering scripts/common_extra.shader
+entering scripts/common_alphascale.shader
+entering scripts/ctf.shader
+entering scripts/gothic_block.shader
+entering scripts/gothic_button.shader
+Script file scripts/gothic_cath.shader was not found
+Script file scripts/gothic_ceiling.shader was not found
+entering scripts/gothic_door.shader
+entering scripts/gothic_floor.shader
+entering scripts/gothic_light.shader
+entering scripts/gothic_trim.shader
+entering scripts/gothic_wall.shader
+entering scripts/liquids.shader
+entering scripts/liquid.shader
+entering scripts/organics.shader
+entering scripts/sfx.shader
+entering scripts/skin.shader
+entering scripts/sky.shader
+entering scripts/skies.shader
+entering scripts/jontest.shader
+entering scripts/decal.shader
+entering scripts/decal_sample.shader
+entering scripts/q3dm17sample.shader
+entering scripts/shaderlab_1337.shader
+Script file scripts/null_urt1.shader was not found
+entering scripts/et_null_urt1.shader
+entering scripts/null_test.shader
+entering scripts/null_test_rain.shader
+entering scripts/cel.shader
+entering scripts/null_alpha_ctf.shader
+entering scripts/null_clock.shader
+entering scripts/null_des.shader
+entering scripts/null_des_fire.shader
+entering scripts/newsfile.shader
+entering scripts/shaderlab_terrain.shader
+entering scripts/urban_terror.shader
+Script file scripts/evil6_bmtls.shader was not found
+Script file scripts/evil6_ctf.shader was not found
+entering scripts/evil6_floors.shader
+entering scripts/evil6_lights.shader
+entering scripts/evil6_support.shader
+entering scripts/evil6_trims.shader
+entering scripts/evil6_walls.shader
+entering scripts/evil8_base.shader
+Script file scripts/evil8_env.shader was not found
+Script file scripts/evil8_floor.shader was not found
+Script file scripts/evil8_fx.shader was not found
+Script file scripts/evil8_grate.shader was not found
+Script file scripts/evil8_lights.shader was not found
+Script file scripts/evil8_trim.shader was not found
+Script file scripts/evil8_wall.shader was not found
+entering scripts/e7.shader
+entering scripts/eq2.shader
+entering scripts/dsi_textures.shader
+Script file scripts/egyptsoc_floor.shader was not found
+Script file scripts/egyptsoc_mat.shader was not found
+Script file scripts/egyptsoc_sfx.shader was not found
+Script file scripts/egyptsoc_trim.shader was not found
+Script file scripts/egyptsoc_trimd.shader was not found
+Script file scripts/egyptsoc_wall.shader was not found
+entering scripts/ut_macabre.shader
+entering scripts/nonus.shader
+     1217 shaderInfo
+--- LoadMapFile ---
+Loading G:\Games\quake3\baseq3\maps\ut_canyon.map
+entering G:\Games\quake3\baseq3\maps\ut_canyon.map
+     9452 total world brushes
+     8867 detail brushes
+        0 patches
+    29907 boxbevels
+    15030 edgebevels
+      780 entities
+    55142 planes
+        0 areaportals
+Size: -5144, -4224, -1344 to  4224,  4376,   832
+--- ProcessDecals ---
+        0 decal projectors
+--- CreateMapFogs ---
+        0 fogs
+############### model 0 ###############
+block size = { 4096 4096 4096 }
+BSP bounds: { -5144.000000 -4224.000000 -1344.000000 } { 4224.000000 4376.000000 832.000000 }
+Lightgrid bounds: { 99999.000000 99999.000000 99999.000000 } { -99999.000000 -99999.000000 -99999.000000 }
+--- PatchMapDrawSurfs ---
+--- FaceBSP ---
+     3421 faces
+     6694 leafs
+--- MakeTreePortals ---
+      136 tiny portals
+        0 bad portals
+--- FilterStructuralBrushesIntoTree ---
+      591 structural brushes
+    20516 cluster references
+--- FloodEntities ---
+     2377 flooded leafs
+--- FillOutside ---
+     3491 solid leafs
+      826 leafs filled
+     2377 inside leafs
+--- CullSides ---
+     2199 hidden faces culled
+      115 coincident faces culled
+--- ClipSidesIntoTree ---
+--- FaceBSP ---
+      781 faces
+     3646 leafs
+--- MakeTreePortals ---
+      244 tiny portals
+        0 bad portals
+--- FilterStructuralBrushesIntoTree ---
+      591 structural brushes
+    13753 cluster references
+--- NumberClusters ---
+     1880 visclusters
+     4916 visportals
+     3459 solidfaces
+--- WritePortalFile ---
+writing G:\Games\quake3\baseq3\maps\ut_canyon.prt
+--- FloodAreas ---
+        5 areas
+--- AddTriangleModels ---
+--- AddEntitySurfaceModels ---
+--- FilterDetailBrushesIntoTree ---
+     9241 detail brushes
+    25749 cluster references
+----- FogDrawSurfs -----
+        0 fog polygon fragments
+        0 fog patch fragments
+        0 fogged drawsurfs
+--- SubdivideFaceSurfaces ---
+--- FixTJunctions ---
+     2004 axial edge lines
+    10872 non-axial edge lines
+        0 degenerate edges
+      390 verts added for T-junctions
+    26735 total verts
+     8245 naturally ordered
+      118 rotated orders
+        3 can't order
+        0 broken (degenerate) surfaces removed
+--- ClassifyEntitySurfaces ---
+--- TidyEntitySurfaces ---
+        0 empty or malformed surfaces deleted
+--- MakeEntityDecals ---
+ (0)
+        0 decal surfaces
+--- MakeEntityMetaTriangles ---
+0...1...2...3...4...5...6...7...8...9... (0)
+     8465 total meta surfaces
+     8362 stripped surfaces
+        4 fanned surfaces
+        0 patch meta surfaces
+    30163 meta verts
+    14588 meta triangles
+--- TidyEntitySurfaces ---
+     8465 empty or malformed surfaces deleted
+--- SmoothMetaTriangles ---
+0...1...2...3...4...5...6...7...8...9... (3)
+     4132 smoothed vertexes
+--- MergeMetaTriangles ---
+0...1...2...3...4...5...6...7...8...9...10... (14)
+     2575 surfaces merged
+    89095 vertexes merged
+--- FilterDrawsurfsIntoTree ---
+     7865 references
+     2665 (2665) emitted drawsurfs
+     8362 stripped face surfaces
+        4 fanned face surfaces
+        0 surface models generated
+        0 skybox surfaces generated
+        0 SURFACE_BAD surfaces
+        0 SURFACE_FACE surfaces
+        0 SURFACE_PATCH surfaces
+       90 SURFACE_TRIANGLES surfaces
+        0 SURFACE_FLARE surfaces
+        0 SURFACE_FOLIAGE surfaces
+        0 SURFACE_FORCED_META surfaces
+     2575 SURFACE_META surfaces
+        0 SURFACE_FOGHULL surfaces
+        0 SURFACE_DECAL surfaces
+        0 SURFACE_SHADER surfaces
+    24624 redundant indexes supressed, saving 96 Kbytes
+--- FixBrushSides ---
+--- EndModel ---
+      482 light entities stripped
+    62326 BSP planes
+--- WriteSurfaceExtraFile ---
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.srf
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 3.7 MB (3869820 bytes)
+       52 seconds elapsed

@@ -1,0 +1,35 @@
+2.5.16
+1 threads
+Q3Map         - v1.0r (c) 1999 Id Software Inc.
+Q3Map (ydnar) - v2.5.16
+GtkRadiant    - v1.5.0 Jul 27 2004 07:09:18
+Impeach Bush
+VFS Init: G:/Games/quake3/baseq3/
+
+--- Vis ---
+saveprt = true
+Loading G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Loading G:\Games\quake3\baseq3\maps\ut_canyon.prt
+  1880 portalclusters
+  4916 numportals
+  3459 numfaces
+  9832 active portals
+  6986 hint portals
+visdatasize:451208
+
+--- BasePortalVis (9832) ---
+0...1...2...3...4...5...6...7...8...9... (14)
+      5 average number of passages per leaf
+     33 MB required passage memory
+
+--- CreatePassages (9832) ---
+0...1...2...3...4...5...6...7...8...9... (35)
+
+--- PassagePortalFlow (9832) ---
+0...1...2...3...4...5...6...7...8...9... (524)
+creating leaf vis...
+Total visible clusters: 784039
+Average clusters visible: 417
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 4.1 MB (4321028 bytes)
+      574 seconds elapsed

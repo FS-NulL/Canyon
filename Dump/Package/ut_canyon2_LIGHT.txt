@@ -1,0 +1,921 @@
+2.5.16
+1 threads
+Q3Map         - v1.0r (c) 1999 Id Software Inc.
+Q3Map (ydnar) - v2.5.16
+GtkRadiant    - v1.5.0 Jul 27 2004 07:09:18
+Impeach Bush
+--- InitPaths ---
+Searching for "quake" in "G:/Games/utils/Q3map2/q3map_2.5.15_win32_x86/q3map2.exe" (0)...
+Searching for "quake" in "-light" (1)...
+Searching for "quake" in "-bounce" (2)...
+Searching for "quake" in "99" (3)...
+Searching for "quake" in "-fast" (4)...
+Searching for "quake" in "-patchshadows" (5)...
+Searching for "quake" in "-samples" (6)...
+Searching for "quake" in "2" (7)...
+Searching for "quake" in "-shade" (8)...
+Searching for "quake" in "G:/Games/quake3/baseq3/maps/ut_canyon.bsp" (9)...
+VFS Init: G:/Games/quake3/baseq3/
+
+--- Light ---
+Radiosity enabled with 99 bounce(s)
+Fast mode enabled
+Patch shadow casting enabled
+Adaptive supersampling enabled with 2 sample(s) per lightmap texel
+Phong shading enabled
+Map has shader script G:\Games\quake3\baseq3\maps/../scripts/q3map2_ut_canyon.shader
+entering scripts/shaderlist.txt
+entering scripts/base_button.shader
+Script file scripts/base_ceiling.shader was not found
+entering scripts/base_door.shader
+entering scripts/base_floor.shader
+entering scripts/base_light.shader
+entering scripts/base_object.shader
+entering scripts/base_support.shader
+entering scripts/base_trim.shader
+entering scripts/base_wall.shader
+entering scripts/common.shader
+entering scripts/common_extra.shader
+entering scripts/common_alphascale.shader
+entering scripts/ctf.shader
+entering scripts/gothic_block.shader
+entering scripts/gothic_button.shader
+Script file scripts/gothic_cath.shader was not found
+Script file scripts/gothic_ceiling.shader was not found
+entering scripts/gothic_door.shader
+entering scripts/gothic_floor.shader
+entering scripts/gothic_light.shader
+entering scripts/gothic_trim.shader
+entering scripts/gothic_wall.shader
+entering scripts/liquids.shader
+entering scripts/liquid.shader
+entering scripts/organics.shader
+entering scripts/sfx.shader
+entering scripts/skin.shader
+entering scripts/sky.shader
+entering scripts/skies.shader
+entering scripts/jontest.shader
+entering scripts/decal.shader
+entering scripts/decal_sample.shader
+entering scripts/q3dm17sample.shader
+entering scripts/shaderlab_1337.shader
+Script file scripts/null_urt1.shader was not found
+entering scripts/et_null_urt1.shader
+entering scripts/null_test.shader
+entering scripts/null_test_rain.shader
+entering scripts/cel.shader
+entering scripts/null_alpha_ctf.shader
+entering scripts/null_clock.shader
+entering scripts/null_des.shader
+entering scripts/null_des_fire.shader
+entering scripts/newsfile.shader
+entering scripts/shaderlab_terrain.shader
+entering scripts/urban_terror.shader
+Script file scripts/evil6_bmtls.shader was not found
+Script file scripts/evil6_ctf.shader was not found
+entering scripts/evil6_floors.shader
+entering scripts/evil6_lights.shader
+entering scripts/evil6_support.shader
+entering scripts/evil6_trims.shader
+entering scripts/evil6_walls.shader
+entering scripts/evil8_base.shader
+Script file scripts/evil8_env.shader was not found
+Script file scripts/evil8_floor.shader was not found
+Script file scripts/evil8_fx.shader was not found
+Script file scripts/evil8_grate.shader was not found
+Script file scripts/evil8_lights.shader was not found
+Script file scripts/evil8_trim.shader was not found
+Script file scripts/evil8_wall.shader was not found
+entering scripts/e7.shader
+entering scripts/eq2.shader
+entering scripts/dsi_textures.shader
+Script file scripts/egyptsoc_floor.shader was not found
+Script file scripts/egyptsoc_mat.shader was not found
+Script file scripts/egyptsoc_sfx.shader was not found
+Script file scripts/egyptsoc_trim.shader was not found
+Script file scripts/egyptsoc_trimd.shader was not found
+Script file scripts/egyptsoc_wall.shader was not found
+entering scripts/ut_macabre.shader
+entering scripts/nonus.shader
+     1217 shaderInfo
+Loading G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Loading G:\Games\quake3\baseq3\maps\ut_canyon.srf
+--- LoadMapFile ---
+Loading G:\Games\quake3\baseq3\maps\ut_canyon.map
+entering G:\Games\quake3\baseq3\maps\ut_canyon.map
+      482 light entities
+--- SetupBrushes ---
+     8826 opaque brushes
+--- SetupDirt ---
+       48 dirtmap vectors
+--- SetupSurfaceLightmaps ---
+     2669 surfaces
+     2112 raw lightmaps
+      548 surfaces vertex lit
+     2121 surfaces lightmapped
+      399 planar surfaces lightmapped
+     1722 non-planar surfaces lightmapped
+        0 patches lightmapped
+        0 planar patches lightmapped
+--- SetupTraceNodes ---
+   191320 trace windings (48.17MB)
+   358994 trace triangles (30.13MB)
+   129308 trace nodes (7.89MB)
+    64653 leaf nodes (3.95MB)
+        2 average windings per leaf node
+       32 max trace depth
+--- SmoothNormals ---
+0...1...2...3...4...5...6...7...8...9... (8)
+--- SetupGrid ---
+Grid size = { 64, 64, 128 }
+   337365 grid points
+--- CreateLights ---
+Sun: textures/null_des/sky
+Sky: textures/null_des/sky
+      500 point lights
+        0 spotlights
+       18 diffuse (area) lights
+       81 sun/sky lights
+--- SetupEnvelopes (fast) ---
+      599 total lights
+        0 culled lights
+--- TraceGrid ---
+0...1...2...3...4...5...6...7...8...9... (31)
+147 x 135 x 17 = 337365 grid
+ 16153337 grid points envelope culled
+    29244 grid points bounds culled
+--- MapRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (2)
+   795038 luxels
+   384319 luxels mapped
+    50737 luxels occluded
+--- SetupEnvelopes (fast) ---
+      599 total lights
+        0 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (215)
+   795038 luxels illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (9)
+    22965 vertexes illuminated
+    33357 lights plane culled
+   246294 lights envelope culled
+        0 lights bounds culled
+  1119910 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      277 solid surface lightmaps
+      459 identical surface lightmaps, using 5991 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      161 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 1 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+   18624 total diffuse lights
+   13797 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+    18196 total lights
+      428 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (152)
+  1590076 luxels illuminated
+    22965 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (8)
+    45930 vertexes illuminated
+   122664 lights plane culled
+ 12002485 lights envelope culled
+        0 lights bounds culled
+ 35272249 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      149 solid surface lightmaps
+      309 identical surface lightmaps, using 4606 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      165 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 2 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+   18184 total diffuse lights
+   12900 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+    17819 total lights
+      365 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (146)
+  2385114 luxels illuminated
+    45930 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (9)
+    68895 vertexes illuminated
+   126734 lights plane culled
+ 11552814 lights envelope culled
+        0 lights bounds culled
+ 34762134 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 3 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+   13730 total diffuse lights
+    9690 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+    13411 total lights
+      319 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (119)
+  3180152 luxels illuminated
+    68895 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (10)
+    91860 vertexes illuminated
+   116096 lights plane culled
+  8042862 lights envelope culled
+        0 lights bounds culled
+ 26847283 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 4 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+    5913 total diffuse lights
+    4007 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+     5775 total lights
+      138 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (50)
+  3975190 luxels illuminated
+    91860 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (5)
+   114825 vertexes illuminated
+    72825 lights plane culled
+  2948684 lights envelope culled
+        0 lights bounds culled
+ 12134929 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 5 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+    2120 total diffuse lights
+    1074 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+     2028 total lights
+       92 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (17)
+  4770228 luxels illuminated
+   114825 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (2)
+   137790 vertexes illuminated
+    12441 lights plane culled
+  1049704 lights envelope culled
+        0 lights bounds culled
+  4279004 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 6 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (0)
+    2185 diffuse surfaces
+     114 total diffuse lights
+     114 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+      111 total lights
+        3 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (4)
+  5565266 luxels illuminated
+   137790 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   160755 vertexes illuminated
+      129 lights plane culled
+   123549 lights envelope culled
+        0 lights bounds culled
+   167252 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 7 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+     105 total diffuse lights
+     105 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+      102 total lights
+        3 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (3)
+  6360304 luxels illuminated
+   160755 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (1)
+   183720 vertexes illuminated
+      102 lights plane culled
+   114284 lights envelope culled
+        0 lights bounds culled
+   153254 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 8 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      99 total diffuse lights
+      99 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       97 total lights
+        2 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (4)
+  7155342 luxels illuminated
+   183720 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   206685 vertexes illuminated
+       98 lights plane culled
+   108890 lights envelope culled
+        0 lights bounds culled
+   145580 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 9 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      88 total diffuse lights
+      88 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       86 total lights
+        2 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (3)
+  7950380 luxels illuminated
+   206685 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   229650 vertexes illuminated
+       37 lights plane culled
+    97259 lights envelope culled
+        0 lights bounds culled
+   128786 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 10 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (0)
+    2185 diffuse surfaces
+      88 total diffuse lights
+      88 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       86 total lights
+        2 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (3)
+  8745418 luxels illuminated
+   229650 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (1)
+   252615 vertexes illuminated
+       37 lights plane culled
+    97259 lights envelope culled
+        0 lights bounds culled
+   128786 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 11 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      81 total diffuse lights
+      81 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       79 total lights
+        2 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (2)
+  9540456 luxels illuminated
+   252615 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (1)
+   275580 vertexes illuminated
+       23 lights plane culled
+    89331 lights envelope culled
+        0 lights bounds culled
+   118468 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 12 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      76 total diffuse lights
+      76 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       75 total lights
+        1 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (2)
+ 10335494 luxels illuminated
+   275580 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   298545 vertexes illuminated
+       20 lights plane culled
+    84798 lights envelope culled
+        0 lights bounds culled
+   112507 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 13 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (0)
+    2185 diffuse surfaces
+      67 total diffuse lights
+      67 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       66 total lights
+        1 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (2)
+ 11130532 luxels illuminated
+   298545 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   321510 vertexes illuminated
+       17 lights plane culled
+    74516 lights envelope culled
+        0 lights bounds culled
+    99165 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 14 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      58 total diffuse lights
+      58 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       57 total lights
+        1 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (2)
+ 11925570 luxels illuminated
+   321510 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   344475 vertexes illuminated
+       17 lights plane culled
+    64199 lights envelope culled
+        0 lights bounds culled
+    85774 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 15 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (0)
+    2185 diffuse surfaces
+      44 total diffuse lights
+      44 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       44 total lights
+        0 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (1)
+ 12720608 luxels illuminated
+   344475 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (1)
+   367440 vertexes illuminated
+        4 lights plane culled
+    51663 lights envelope culled
+        0 lights bounds culled
+    64242 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 16 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      38 total diffuse lights
+      38 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       38 total lights
+        0 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (1)
+ 13515646 luxels illuminated
+   367440 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   390405 vertexes illuminated
+        4 lights plane culled
+    45617 lights envelope culled
+        0 lights bounds culled
+    54498 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 17 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      32 total diffuse lights
+      32 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       32 total lights
+        0 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (1)
+ 14310684 luxels illuminated
+   390405 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   413370 vertexes illuminated
+        2 lights plane culled
+    38804 lights envelope culled
+        0 lights bounds culled
+    45513 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 18 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      25 total diffuse lights
+      25 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       25 total lights
+        0 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (0)
+ 15105722 luxels illuminated
+   413370 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (1)
+   436335 vertexes illuminated
+        0 lights plane culled
+    31241 lights envelope culled
+        0 lights bounds culled
+    34680 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 19 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      20 total diffuse lights
+      20 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       20 total lights
+        0 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (0)
+ 15900760 luxels illuminated
+   436335 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   459300 vertexes illuminated
+        0 lights plane culled
+    24881 lights envelope culled
+        0 lights bounds culled
+    27874 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 20 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (1)
+    2185 diffuse surfaces
+      10 total diffuse lights
+      10 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+--- SetupEnvelopes (fast) ---
+       10 total lights
+        0 culled lights
+--- IlluminateRawLightmap ---
+0...1...2...3...4...5...6...7...8...9... (0)
+ 16695798 luxels illuminated
+   459300 vertexes illuminated
+--- IlluminateVertexes ---
+0...1...2...3...4...5...6...7...8...9... (0)
+   482265 vertexes illuminated
+        0 lights plane culled
+    12665 lights envelope culled
+        0 lights bounds culled
+    13710 lights cluster culled
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+
+--- Radiosity (bounce 21 of 99) ---
+--- RadCreateDiffuseLights ---
+0...1...2...3...4...5...6...7...8...9... (0)
+    2185 diffuse surfaces
+       0 total diffuse lights
+       0 brush diffuse lights
+       0 patch diffuse lights
+       0 triangle diffuse lights
+No diffuse light to calculate, ending radiosity.
+--- StoreSurfaceLightmaps ---
+Subsampling...collapsing...sorting...allocating...storing...projecting...done.
+   502455 luxels used
+   655360 luxels stored (76.67 percent efficiency)
+      145 solid surface lightmaps
+      308 identical surface lightmaps, using 4593 luxels
+        0 vertex forced surfaces
+        0 vertex approximated surfaces
+       40 BSP lightmaps
+       40 total lightmaps
+      164 unique lightmap/shader combinations
+Writing G:\Games\quake3\baseq3\maps\ut_canyon.bsp
+Wrote 8.6 MB (8986028 bytes)
+     1056 seconds elapsed
